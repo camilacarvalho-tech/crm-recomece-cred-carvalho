@@ -18,19 +18,19 @@ export const router = createBrowserRouter([
         element: <Dashboard />,
       },
       {
-        path: "leads",
+        path: "/leads",
         element: <Leads />,
       },
       {
-        path: "clientes",
+        path: "/clientes",
         element: <Clientes />,
       },
       {
-        path: "sistema-interno",
+        path: "/sistema-interno",
         element: <SistemaInterno />,
       },
       {
-        path: "conversao",
+        path: "/conversao",
         element: <Conversao />,
       },
     ],
